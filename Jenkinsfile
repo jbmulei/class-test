@@ -4,7 +4,7 @@ node {
 	{
 		Checkout scm
 	}
-	stage ("Show me the files"){
+	stage ('Show me the files'){
 		sh "ls -l"
 	}
 	
